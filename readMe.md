@@ -1,5 +1,5 @@
-# 成员可以在此库中分享自己的刷题成果，刷题经验和讨论
-# 如何使用
+## 成员可以在此库中分享自己的刷题成果，刷题经验和讨论
+## 如何使用
 
 ## clone本库到local
 git clone https://github.com/zywidavid/LeetCodeResult.git
