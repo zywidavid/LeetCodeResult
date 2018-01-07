@@ -6,8 +6,8 @@ public class Backtracking {
         helper(A, 0, new ArrayList<Object>(), result);
         return result;
     }
-
-    private static void helper(int[] A, int pos, List<Object> item, List<List<Object>> result) {
+    //Recursively generate all solutions
+    private static void helper(int[] A, int pos, List<Object> solution, List<List<Object>> result) {
         if (isSolution(A, pos)) {
             collectSolution(result, solution);
             return;
