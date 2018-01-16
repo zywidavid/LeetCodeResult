@@ -1,3 +1,8 @@
+/**
+* 从数组最末 从后往前 加，
+注意就是如果最后carry还是1，比如出现999这种，
+只能建立个新的result array。
+*/
 class Solution {
     public int[] plusOne(int[] digits) {
         int carry = 1;

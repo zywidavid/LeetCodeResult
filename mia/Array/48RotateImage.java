@@ -1,6 +1,16 @@
+/**
+每一层的一个点的rotate, 四个相关 点的坐标 如下：
+*   ------------
+    |    1      |  1 (r, c)
+    |         2 |  2 (c, N-1-r)
+    | 4         |  4 (N-1-c, r)
+    |      3    |  3 (N-1-r, N-1-c)
+    -------------
+
+    1 <- 4, 4 <- 3, 3 <- 2, 2 <- 1
+    注意: row和col的range
+*/
 class Solution {
-    //1 (r,c) 2 (c, N-1-r), 3 (N-1-r, N-1-c) 4 (N-1-c, r)
-    //4 -> 1, 3 -> 4, 2 -> 3, 1 -> 2
     public void rotate(int[][] matrix) {
         if(matrix == null || matrix.length == 0 || matrix[0].length == 0) return;
         int N = matrix.length;

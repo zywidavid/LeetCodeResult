@@ -1,3 +1,7 @@
+/**
+* 检查 每一行 row, 检查每一列 col, 检查每一个unit (3*3的小九宫格)
+  时间 O（N＊N）
+*/
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         for(int i = 0; i < board.length; i ++){
