@@ -1,5 +1,5 @@
 /**
-*
+* 没啥好说的。先排序 （时间换空间）
 */
 class Solution {
     public boolean containsDuplicate(int[] nums) {

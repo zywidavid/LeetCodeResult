@@ -1,5 +1,5 @@
 /**
-*
+* 这个题有几个牛逼的follow up还没有看。抽空搞
 */
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
